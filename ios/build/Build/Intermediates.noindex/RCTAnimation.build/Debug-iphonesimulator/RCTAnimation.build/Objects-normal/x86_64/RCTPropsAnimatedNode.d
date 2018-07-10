@@ -1,0 +1,31 @@
+dependencies: \
+  /Users/nguyendinhphu/Desktop/OtoHc_Reactnative/node_modules/react-native/Libraries/NativeAnimation/Nodes/RCTPropsAnimatedNode.m \
+  /Users/nguyendinhphu/Desktop/OtoHc_Reactnative/node_modules/react-native/Libraries/NativeAnimation/Nodes/RCTPropsAnimatedNode.h \
+  /Users/nguyendinhphu/Desktop/OtoHc_Reactnative/node_modules/react-native/Libraries/NativeAnimation/Nodes/RCTAnimatedNode.h \
+  /Users/nguyendinhphu/Desktop/OtoHc_Reactnative/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTLog.h \
+  /Users/nguyendinhphu/Desktop/OtoHc_Reactnative/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAssert.h \
+  /Users/nguyendinhphu/Desktop/OtoHc_Reactnative/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h \
+  /Users/nguyendinhphu/Desktop/OtoHc_Reactnative/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTUtils.h \
+  /Users/nguyendinhphu/Desktop/OtoHc_Reactnative/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTUIManager.h \
+  /Users/nguyendinhphu/Desktop/OtoHc_Reactnative/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridge.h \
+  /Users/nguyendinhphu/Desktop/OtoHc_Reactnative/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeDelegate.h \
+  /Users/nguyendinhphu/Desktop/OtoHc_Reactnative/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTJavaScriptLoader.h \
+  /Users/nguyendinhphu/Desktop/OtoHc_Reactnative/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeModule.h \
+  /Users/nguyendinhphu/Desktop/OtoHc_Reactnative/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTFrameUpdate.h \
+  /Users/nguyendinhphu/Desktop/OtoHc_Reactnative/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTInvalidating.h \
+  /Users/nguyendinhphu/Desktop/OtoHc_Reactnative/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTRootView.h \
+  /Users/nguyendinhphu/Desktop/OtoHc_Reactnative/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTViewManager.h \
+  /Users/nguyendinhphu/Desktop/OtoHc_Reactnative/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTConvert.h \
+  /Users/nguyendinhphu/Desktop/OtoHc_Reactnative/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAnimationType.h \
+  /Users/nguyendinhphu/Desktop/OtoHc_Reactnative/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBorderStyle.h \
+  /Users/nguyendinhphu/Desktop/OtoHc_Reactnative/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTPointerEvents.h \
+  /Users/nguyendinhphu/Desktop/OtoHc_Reactnative/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTTextDecorationLineType.h \
+  /Users/nguyendinhphu/Desktop/OtoHc_Reactnative/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/Yoga.h \
+  /Users/nguyendinhphu/Desktop/OtoHc_Reactnative/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
+  /Users/nguyendinhphu/Desktop/OtoHc_Reactnative/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h \
+  /Users/nguyendinhphu/Desktop/OtoHc_Reactnative/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTEventDispatcher.h \
+  /Users/nguyendinhphu/Desktop/OtoHc_Reactnative/ios/build/Build/Products/Debug-iphonesimulator/include/React/UIView+React.h \
+  /Users/nguyendinhphu/Desktop/OtoHc_Reactnative/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTComponent.h \
+  /Users/nguyendinhphu/Desktop/OtoHc_Reactnative/node_modules/react-native/Libraries/NativeAnimation/RCTAnimationUtils.h \
+  /Users/nguyendinhphu/Desktop/OtoHc_Reactnative/node_modules/react-native/Libraries/NativeAnimation/Nodes/RCTStyleAnimatedNode.h \
+  /Users/nguyendinhphu/Desktop/OtoHc_Reactnative/node_modules/react-native/Libraries/NativeAnimation/Nodes/RCTValueAnimatedNode.h
