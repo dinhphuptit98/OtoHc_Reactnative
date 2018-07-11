@@ -12,7 +12,6 @@ export default class ListContactView extends Component<Props> {
   }
 
   componentDidMount() {
-    console.log('########## ');
     fetch('http://192.168.1.212:8089/api/Members/GetMember')
       .then((response) => {
         return response.json()
@@ -45,6 +44,8 @@ export default class ListContactView extends Component<Props> {
           data={ this.state.dataSource }
           renderItem={ ({item}) => {
                          return <Cell
+                                  navigation={ this.props.navigation }
+                                  contactSelected={ item }
                                   name={ item.FullName }
                                   adress={ item.Address }
                                   numberphone={ item.PhoneNumber }/>
@@ -63,3 +64,25 @@ const styles = StyleSheet.create({
 
   },
 });
+
+// import React, { Component } from 'react';
+// import { Platform, StyleSheet, Text, View, Button } from 'react-native';
+
+
+
+// type Props = {};
+// export default class ListContacts extends Component<Props> {
+//   static navigationOptions = {
+//     title: 'ListContacts',
+//   };
+//   render() {
+//     const {navigate} = this.props.navigation;
+//     return (
+//       <Button
+//         title="Go to Jane's profile"
+//         onPress={ () => navigate('Contact', {
+//                     name: 'Contact'
+//                   }) }/>
+//       );
+//   }
+// }

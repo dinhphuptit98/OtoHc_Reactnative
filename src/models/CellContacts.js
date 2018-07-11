@@ -7,11 +7,16 @@ import { Platform, StyleSheet, Text, View, Image, TouchableOpacity } from 'react
 type Props = {};
 export default class Cell extends Component {
   render() {
+    const navigation = this.props.navigation;
     let pic = {
       uri: 'https://openclipart.org/image/2400px/svg_to_png/216165/fb_stormshadow.png'
     };
     return (
-      <TouchableOpacity style={ { height: 100 } }>
+      <TouchableOpacity
+        onPress={ () => navigation.navigate('Contact', {
+                    contactSelected: this.props.contactSelected
+                  }) }
+        style={ { height: 100 } }>
         <View style={ styles.container }>
           <View style={ styles.viewImage }>
             <Image
