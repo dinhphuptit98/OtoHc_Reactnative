@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
-import { Platform, StyleSheet, Text, View, FlatList, ActivityIndicator } from 'react-native';
+import { Platform, StyleSheet, Text, Button, View, FlatList, ActivityIndicator } from 'react-native';
 import Cell from './../models/CellContacts';
 
 type Props = {};
 export default class ListContactView extends Component<Props> {
+
   constructor(props) {
     super(props);
     this.state = {

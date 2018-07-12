@@ -14,6 +14,6 @@ var styles = StyleSheet.create({
   container: {
     flex: 1,
     margin: 20,
-    backgroundColor: 'yellow'
+    backgroundColor: 'gray'
   }
 })

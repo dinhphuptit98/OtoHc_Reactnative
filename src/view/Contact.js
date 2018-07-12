@@ -33,8 +33,8 @@ export default class Contact extends Component<Props> {
 
 
   render() {
-    console.log('############', this.props.navigation);
-
+// console.log('############', this.props.navigation);
+    
     let pic = {
       uri: 'https://openclipart.org/image/2400px/svg_to_png/216165/fb_stormshadow.png'
     };
@@ -64,21 +64,21 @@ export default class Contact extends Component<Props> {
           <View style={ { flex: 1, margin: 15, flexDirection: 'row' } }>
             <TouchableOpacity style={ { flex: 1 } }>
               <View style={ styles.viewButton }>
-                <Text style={ { color: 'green' } }>
+                <Text style={ { color: 'blue' } }>
                   Thông Báo
                 </Text>
               </View>
             </TouchableOpacity>
             <TouchableOpacity style={ { flex: 1 } }>
               <View style={ styles.viewButton }>
-                <Text style={ { color: 'green' } }>
+                <Text style={ { color: 'blue' } }>
                   Nhắn Tin
                 </Text>
               </View>
             </TouchableOpacity>
             <TouchableOpacity style={ { flex: 1 } }>
               <View style={ styles.viewButton }>
-                <Text style={ { color: 'green' } }>
+                <Text style={ { color: 'blue' } }>
                   Điều Hướng
                 </Text>
               </View>
@@ -93,7 +93,7 @@ var styles = StyleSheet.create({
   container: {
     flex: 1,
     flexDirection: 'column',
-    backgroundColor: 'green',
+    backgroundColor: 'gray',
     margin: 10
 
   },
