@@ -1,17 +1,20 @@
 import React, { Component } from 'react';
-import { Platform, StyleSheet, Text, Button, View, FlatList, ActivityIndicator } from 'react-native';
+import { Platform, StyleSheet, Text, TextInput, Button, View, Image, FlatList, ActivityIndicator } from 'react-native';
+import SearchInput, { createFilter } from 'react-native-search-filter';
 import Cell from './../models/CellContacts';
 
 type Props = {};
 export default class ListContactView extends Component<Props> {
 
+
+
   constructor(props) {
     super(props);
     this.state = {
-      isloading: true
+      isloading: true,
+      searchTerm: ''
     }
   }
-
   componentDidMount() {
     fetch('http://192.168.1.212:8089/api/Members/GetMember')
       .then((response) => {
@@ -29,29 +32,30 @@ export default class ListContactView extends Component<Props> {
         console.error(error);
       });
   }
-
   render() {
-    if (this.state.isLoading) {
-      return (
-        <View style={ { flex: 1, padding: 20 } }>
-          <ActivityIndicator/>
-        </View>
-      )
-    }
+
 
     return (
-      <View style={ styles.container }>
-        <FlatList
-          data={ this.state.dataSource }
-          renderItem={ ({item}) => {
-                         return <Cell
-                                  navigation={ this.props.navigation }
-                                  contactSelected={ item }
-                                  name={ item.FullName }
-                                  adress={ item.Address }
-                                  numberphone={ item.PhoneNumber }/>
-                       } }
-          keyExtractor={ (item, index) => index.toString() }/>
+      <View>
+        <View style={ { height: 40, backgroundColor: 'gray', flexDirection: 'row', alignItems: 'center' } }>
+          <Image source={ require('./../assets/search.png') }/>
+          <SearchInput
+            style={ { marginLeft: 10, fontSize: 25, color: 'white' } }
+            placeholder='Enter your name'/>
+        </View>
+        <View style={ styles.container }>
+          <FlatList
+            data={ this.state.dataSource }
+            renderItem={ ({item}) => {
+                           return <Cell
+                                    navigation={ this.props.navigation }
+                                    contactSelected={ item }
+                                    name={ item.FullName }
+                                    adress={ item.Address }
+                                    numberphone={ item.PhoneNumber }/>
+                         } }
+            keyExtractor={ (item, index) => index.toString() }/>
+        </View>
       </View>
       );
   }
@@ -59,9 +63,8 @@ export default class ListContactView extends Component<Props> {
 
 const styles = StyleSheet.create({
   container: {
-    margin: 20,
     backgroundColor: 'gray',
-    flex: 1,
+
 
   },
 });

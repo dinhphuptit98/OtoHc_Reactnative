@@ -10,13 +10,14 @@ import React, { Component } from 'react';
 import { Platform, StyleSheet, Button, Image, TouchableHighlight } from 'react-native';
 import { StackNavigator, TabNavigator, DrawerNavigator } from 'react-navigation';
 import { SearchBar } from 'react-native-search-bar';
+
 import ListContactView from './src/view/ListContacts';
 import Contact from './src/view/Contact';
-import MapView from './src/view/MapView';
+import MyMapView from './src/view/MapView';
 import SettingsView from './src/view/SettingsView';
 import Profile from './src/view/Profile';
 import History from './src/view/History';
-
+import NavigationMap from './src/view/NavigationMap';
 const App = StackNavigator({
   ListContactView: {
     screen: ListContactView,
@@ -31,23 +32,18 @@ const App = StackNavigator({
       </TouchableHighlight>
       ),
       headerRight: (
-      <TouchableHighlight onPress={ () => {
-                                <SearchBar
-                                  ref='searchBar'
-                                  placeholder='Search'
-                                  onChangeText='Search'
-                                  onSearchButtonPress='Search'
-                                  onCancelButtonPress='Search'/>
-                              } }>
-        <Image source={ require('./src/assets/search.png') }/>
+      <TouchableHighlight onPress={ () => alert('OtoHC application has been upgraded .Current version 2.2.2 . For detailed information visit Google.com') }>
+        <Image source={ require('./src/assets/help.png') }/>
       </TouchableHighlight>
       )
     })
   },
   Contact: {
-    screen: Contact
+    screen: Contact,
   },
-
+  NavigationMap: {
+    screen: NavigationMap,
+  },
 });
 
 const TabBarNavigator = TabNavigator(
@@ -64,7 +60,7 @@ const TabBarNavigator = TabNavigator(
       }
     },
     Map: {
-      screen: MapView,
+      screen: MyMapView,
       navigationOptions: {
         tabBarIcon: ({}) => {
           return <Image
@@ -94,6 +90,7 @@ const Menu = DrawerNavigator({
       )
     }
   },
+
   Profile: {
     screen: Profile,
     navigationOptions: {
@@ -135,6 +132,7 @@ const Menu = DrawerNavigator({
         <Image
           source={ require('./src/assets/logout.png') }
           style={ { flex: 1 } }/>
+
       )
     }
   }

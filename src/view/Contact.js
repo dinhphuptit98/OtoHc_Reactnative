@@ -33,8 +33,8 @@ export default class Contact extends Component<Props> {
 
 
   render() {
-// console.log('############', this.props.navigation);
-    
+    // console.log('############', this.props.navigation);
+    const navigation = this.props.navigation;
     let pic = {
       uri: 'https://openclipart.org/image/2400px/svg_to_png/216165/fb_stormshadow.png'
     };
@@ -76,7 +76,9 @@ export default class Contact extends Component<Props> {
                 </Text>
               </View>
             </TouchableOpacity>
-            <TouchableOpacity style={ { flex: 1 } }>
+            <TouchableOpacity
+              onPress={ () => navigation.navigate('NavigationMap') }
+              style={ { flex: 1 } }>
               <View style={ styles.viewButton }>
                 <Text style={ { color: 'blue' } }>
                   Điều Hướng
@@ -94,7 +96,6 @@ var styles = StyleSheet.create({
     flex: 1,
     flexDirection: 'column',
     backgroundColor: 'gray',
-    margin: 10
 
   },
   viewImage: {
@@ -123,19 +124,3 @@ var styles = StyleSheet.create({
 
   }
 });
-// import React, { Component } from 'react';
-// import { Platform, StyleSheet, Text, View } from 'react-native';
-
-
-
-// type Props = {};
-// export default class Contact extends Component<Props> {
-//   render() {
-//     return (
-//       <View style={ { flex: 1, justifyContent: 'center', alignItems: 'center' } }>
-//         <Text>
-//         </Text>
-//       </View>
-//       );
-//   }
-// }

@@ -1,0 +1,23 @@
+dependencies: \
+  /Users/nguyendinhphu/Desktop/OtoHc_Reactnative/node_modules/react-native-maps/lib/ios/AirMaps/AIRMapOverlayRenderer.m \
+  /Users/nguyendinhphu/Desktop/OtoHc_Reactnative/ios/Pods/Target\ Support\ Files/react-native-maps/react-native-maps-prefix.pch \
+  /Users/nguyendinhphu/Desktop/OtoHc_Reactnative/node_modules/react-native-maps/lib/ios/AirMaps/AIRMapOverlayRenderer.h \
+  /Users/nguyendinhphu/Desktop/OtoHc_Reactnative/node_modules/react-native-maps/lib/ios/AirMaps/AIRMapOverlay.h \
+  /Users/nguyendinhphu/Desktop/OtoHc_Reactnative/node_modules/react-native-maps/lib/ios/AirMaps/AIRMapCallout.h \
+  /Users/nguyendinhphu/Desktop/OtoHc_Reactnative/ios/Pods/Headers/Public/React/React/RCTView.h \
+  /Users/nguyendinhphu/Desktop/OtoHc_Reactnative/ios/Pods/Headers/Public/React/React/RCTBorderStyle.h \
+  /Users/nguyendinhphu/Desktop/OtoHc_Reactnative/ios/Pods/Headers/Public/React/React/RCTComponent.h \
+  /Users/nguyendinhphu/Desktop/OtoHc_Reactnative/ios/Pods/Headers/Public/React/React/RCTPointerEvents.h \
+  /Users/nguyendinhphu/Desktop/OtoHc_Reactnative/node_modules/react-native-maps/lib/ios/AirMaps/RCTConvert+AirMap.h \
+  /Users/nguyendinhphu/Desktop/OtoHc_Reactnative/ios/Pods/Headers/Public/React/React/RCTConvert.h \
+  /Users/nguyendinhphu/Desktop/OtoHc_Reactnative/ios/Pods/Headers/Public/React/React/RCTAnimationType.h \
+  /Users/nguyendinhphu/Desktop/OtoHc_Reactnative/ios/Pods/Headers/Public/React/React/RCTDefines.h \
+  /Users/nguyendinhphu/Desktop/OtoHc_Reactnative/ios/Pods/Headers/Public/React/React/RCTLog.h \
+  /Users/nguyendinhphu/Desktop/OtoHc_Reactnative/ios/Pods/Headers/Public/React/React/RCTAssert.h \
+  /Users/nguyendinhphu/Desktop/OtoHc_Reactnative/ios/Pods/Headers/Public/React/React/RCTUtils.h \
+  /Users/nguyendinhphu/Desktop/OtoHc_Reactnative/ios/Pods/Headers/Public/React/React/RCTTextDecorationLineType.h \
+  /Users/nguyendinhphu/Desktop/OtoHc_Reactnative/ios/Pods/Headers/Private/yoga/Yoga.h \
+  /Users/nguyendinhphu/Desktop/OtoHc_Reactnative/ios/Pods/Headers/Private/yoga/YGEnums.h \
+  /Users/nguyendinhphu/Desktop/OtoHc_Reactnative/ios/Pods/Headers/Private/yoga/YGMacros.h \
+  /Users/nguyendinhphu/Desktop/OtoHc_Reactnative/node_modules/react-native-maps/lib/ios/AirMaps/AIRMap.h \
+  /Users/nguyendinhphu/Desktop/OtoHc_Reactnative/node_modules/react-native-maps/lib/ios/AirMaps/Callout/SMCalloutView.h

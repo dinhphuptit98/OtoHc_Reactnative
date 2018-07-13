@@ -9,6 +9,7 @@
   "dependencies": {
     "react": "16.4.1",
     "react-native": "0.56.0",
+    "react-native-awesome-alerts": "^1.0.8",
     "react-native-maps": "^0.21.0",
     "react-native-phone-call": "^1.0.7",
     "react-native-search-bar": "^3.4.2",

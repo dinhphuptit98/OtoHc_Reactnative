@@ -9,4 +9,48 @@ dependencies: \
   /Users/nguyendinhphu/Desktop/OtoHc_Reactnative/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h \
   /Users/nguyendinhphu/Desktop/OtoHc_Reactnative/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeModule.h \
   /Users/nguyendinhphu/Desktop/OtoHc_Reactnative/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTFrameUpdate.h \
-  /Users/nguyendinhphu/Desktop/OtoHc_Reactnative/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTInvalidating.h
+  /Users/nguyendinhphu/Desktop/OtoHc_Reactnative/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTInvalidating.h \
+  /Users/nguyendinhphu/Desktop/OtoHc_Reactnative/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Modules/module.modulemap \
+  /Users/nguyendinhphu/Desktop/OtoHc_Reactnative/ios/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Modules/module.modulemap \
+  /Users/nguyendinhphu/Desktop/OtoHc_Reactnative/ios/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Headers/GMSDeprecationMacros.h \
+  /Users/nguyendinhphu/Desktop/OtoHc_Reactnative/ios/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Headers/GMSCoordinateBounds.h \
+  /Users/nguyendinhphu/Desktop/OtoHc_Reactnative/ios/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Headers/GMSCompatabilityMacros.h \
+  /Users/nguyendinhphu/Desktop/OtoHc_Reactnative/ios/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Headers/GoogleMapsBase.h \
+  /Users/nguyendinhphu/Desktop/OtoHc_Reactnative/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaView.h \
+  /Users/nguyendinhphu/Desktop/OtoHc_Reactnative/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaService.h \
+  /Users/nguyendinhphu/Desktop/OtoHc_Reactnative/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaLink.h \
+  /Users/nguyendinhphu/Desktop/OtoHc_Reactnative/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaLayer.h \
+  /Users/nguyendinhphu/Desktop/OtoHc_Reactnative/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaCameraUpdate.h \
+  /Users/nguyendinhphu/Desktop/OtoHc_Reactnative/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaCamera.h \
+  /Users/nguyendinhphu/Desktop/OtoHc_Reactnative/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanorama.h \
+  /Users/nguyendinhphu/Desktop/OtoHc_Reactnative/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSOrientation.h \
+  /Users/nguyendinhphu/Desktop/OtoHc_Reactnative/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSURLTileLayer.h \
+  /Users/nguyendinhphu/Desktop/OtoHc_Reactnative/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSTileLayer.h \
+  /Users/nguyendinhphu/Desktop/OtoHc_Reactnative/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSSyncTileLayer.h \
+  /Users/nguyendinhphu/Desktop/OtoHc_Reactnative/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPolyline.h \
+  /Users/nguyendinhphu/Desktop/OtoHc_Reactnative/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPolygon.h \
+  /Users/nguyendinhphu/Desktop/OtoHc_Reactnative/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMarkerLayer.h \
+  /Users/nguyendinhphu/Desktop/OtoHc_Reactnative/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMarker.h \
+  /Users/nguyendinhphu/Desktop/OtoHc_Reactnative/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSGroundOverlay.h \
+  /Users/nguyendinhphu/Desktop/OtoHc_Reactnative/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSOverlay.h \
+  /Users/nguyendinhphu/Desktop/OtoHc_Reactnative/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCircle.h \
+  /Users/nguyendinhphu/Desktop/OtoHc_Reactnative/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSServices.h \
+  /Users/nguyendinhphu/Desktop/OtoHc_Reactnative/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMutablePath.h \
+  /Users/nguyendinhphu/Desktop/OtoHc_Reactnative/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSUISettings.h \
+  /Users/nguyendinhphu/Desktop/OtoHc_Reactnative/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMapView.h \
+  /Users/nguyendinhphu/Desktop/OtoHc_Reactnative/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMapView+Animation.h \
+  /Users/nguyendinhphu/Desktop/OtoHc_Reactnative/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMapStyle.h \
+  /Users/nguyendinhphu/Desktop/OtoHc_Reactnative/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMapLayer.h \
+  /Users/nguyendinhphu/Desktop/OtoHc_Reactnative/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSIndoorDisplay.h \
+  /Users/nguyendinhphu/Desktop/OtoHc_Reactnative/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPath.h \
+  /Users/nguyendinhphu/Desktop/OtoHc_Reactnative/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSGeometryUtils.h \
+  /Users/nguyendinhphu/Desktop/OtoHc_Reactnative/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSGeocoder.h \
+  /Users/nguyendinhphu/Desktop/OtoHc_Reactnative/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSProjection.h \
+  /Users/nguyendinhphu/Desktop/OtoHc_Reactnative/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCoordinateBounds+GoogleMaps.h \
+  /Users/nguyendinhphu/Desktop/OtoHc_Reactnative/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCameraUpdate.h \
+  /Users/nguyendinhphu/Desktop/OtoHc_Reactnative/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCameraPosition.h \
+  /Users/nguyendinhphu/Desktop/OtoHc_Reactnative/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCALayer.h \
+  /Users/nguyendinhphu/Desktop/OtoHc_Reactnative/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSAddress.h \
+  /Users/nguyendinhphu/Desktop/OtoHc_Reactnative/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSIndoorLevel.h \
+  /Users/nguyendinhphu/Desktop/OtoHc_Reactnative/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSIndoorBuilding.h \
+  /Users/nguyendinhphu/Desktop/OtoHc_Reactnative/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GoogleMaps.h
